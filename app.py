@@ -19,5 +19,3 @@ if st.button("Generate"):
         st.code(response['output']['choices'][0]['text'], language='python')
     else:
         st.warning("Please enter a prompt.")
-streamlit
-together
